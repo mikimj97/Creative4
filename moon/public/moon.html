@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moon Phases</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <p>Hello World</p>
+
+    <form>
+        <input type="text" value="" id="dateForm" placeholder="Enter a date Ex:10/31/2018" />
+        <button id="moonButton">Submit</button>
+        <br> Result:
+        <span id="moonDef">Empty</span>
+    </form>
+
+    <script>
+        $("#moonButton").click(function(event) {
+            event.preventDefault();
+            var url = "moonByDate/?q=" + $("#dateForm").val();
+            $.getJSON(url, function(data) {
+                console.log(data);
+                var everything;
+                everything += "<ul>";
+                console.log(data);
+                console.log("Phase " + data.phasedata[0].phase);
+                var phase = data.phasedata[0].phase;
+
+                everything += "<li>" + "Current Moon Phase: " + phase + "</li>";
+                var nextPhase = data.phasedata[1].phase;
+                var nextPhaseDate = data.phasedata[1].date;
+                var nextPhaseTime = data.phasedata[1].time;
+                console.log(data.phasedata[1]);
+                everything += "<li>" + "Next Moon Phase will be: " + nextPhase + " on " + nextPhaseDate + " at " + nextPhaseTime + "</li>";
+                everything += "</ul>";
+                $("#moonDef").html(everything);
+
+            })
+        });
+    </script>
+</body>
+
+</html>
