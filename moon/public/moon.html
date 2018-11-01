@@ -5,20 +5,24 @@
     <title>Moon Phases</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
-    <p>Hello World</p>
+    <h2>Find the Phase of the Moon!</h2>
+    <h5>You can search from the past all the way to the future! (Year Range: 1700-2100)</h5>
 
     <form>
         <div class="form-inline">
-            Enter a date: <input type="text" value="" id="dateForm" class="form-control mr-sm-2 ml-sm-2" style="width:10%" placeholder="Ex:10/31/2018" />
-            Enter a location: <input type="text" id="locationForm" class="form-control mr-sm-2 ml-sm-2" style="width:10%" placeholder="Ex: New York, NY"/>
+            Enter a date: <input type="text" value="" id="dateForm" class="form-control mr-sm-2 ml-sm-2" style="width:10%" placeholder="Ex:11/02/2018" /> Enter a location: <input type="text" id="locationForm" class="form-control mr-sm-2 ml-sm-2" style="width:15%"
+                placeholder="Ex: New York, NY" />
             <button class="btn btn-primary" id="moonButton">Submit</button>
             <br> <b>Result:</b>
-            <span id="moonDef">Empty</span>
+            <span id="moonDef"></span>
         </div>
     </form>
+
+    <img id="moonPhase" height="400" width="500" src="https://static.vecteezy.com/system/resources/previews/000/107/031/non_2x/moon-phases-vector.jpg" alt="moon"></img>
 
     <script>
         $("#moonButton").click(function(event) {
@@ -27,27 +31,87 @@
             url += "&loc=";
             url += encodeURI($("#locationForm").val());
             console.log(url);
+
+
             $.getJSON(url, function(data) {
                 console.log(data);
-                var everything;
+                var everything = "";
+                console.log(everything);
                 everything += "<ul>";
+                console.log(everything);
                 var phase = data.curphase;
                 var closest = data.closestphase.phase;
                 var closestdate = data.closestphase.date;
 
+                var today = GetCurrentDate();
 
-                everything += "<li>" + "Current Moon Phase: " + phase + "</li>";
-                everything += "<li>" + "Closest Phase: " + closest + ", on " + closestdate + "</li>";
-                /*var nextPhase = data.phasedata[1].phase;
-                var nextPhaseDate = data.phasedata[1].date;
-                var nextPhaseTime = data.phasedata[1].time;
-                console.log(data.phasedata[1]);
-                everything += "<li>" + "Next Moon Phase will be: " + nextPhase + " on " + nextPhaseDate + " at " + nextPhaseTime + "</li>";
-                */everything += "</ul>";
+
+                if (today !== $("#dateForm").val()) {
+                    everything += "<li>" + "Moon Phase on " + closestdate + ": " + closest + "</li>";
+                    changePic(closest);
+                    console.log(everything);
+                }
+                else {
+                    everything += "<li>" + "Current Moon Phase: " + phase + "</li>";
+                    changePic(phase);
+                    console.log(everything);
+                }
+                // everything += "<li>" + "Closest Phase: " + closest + ", on " + closestdate + "</li>";
+                everything += "</ul>";
+                console.log(everything);
                 $("#moonDef").html(everything);
 
             })
         });
+
+        function GetCurrentDate() {
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1; //January is 0!
+            var yyyy = today.getFullYear();
+
+            if (dd < 10) {
+                dd = '0' + dd;
+            }
+
+            if (mm < 10) {
+                mm = '0' + mm;
+            }
+
+            today = mm + '/' + dd + '/' + yyyy;
+            return today;
+        }
+
+        function changePic(moonphase) {
+            if (moonphase === "Last Quarter") {
+                console.log(moonphase)
+                console.log("Here");
+                $("#moonPhase").attr("src", "http://astropixels.com/moon/phases/phasespix/Moon10-1088w.jpg");
+            }
+            else if (moonphase === "First Quarter") {
+                $("#moonPhase").attr("src", "https://svs.gsfc.nasa.gov/vis/a000000/a004300/a004310/moon.0060_print.jpg");
+            }
+            else if (moonphase === "New Moon") {
+                $("#moonPhase").attr("src", "https://d1jqu7g1y74ds1.cloudfront.net/wp-content/uploads/2010/08/Solar-Eclipse-as-seen-by-Hinode-Satellite.jpg");
+            }
+            else if (moonphase === "Waxing Crescent") {
+                $("#moonPhase").attr("src", "http://stars.astro.illinois.edu/moon/cr1110.jpg");
+            }
+            else if (moonphase === "Waxing Gibbous") {
+                $("#moonPhase").attr("src", "https://c1.staticflickr.com/5/4402/35515991283_9b8b0b1ac2_b.jpg");
+            }
+            else if (moonphase === "Full Moon") {
+                $("#moonPhase").attr("src", "https://timedotcom.files.wordpress.com/2017/02/full-moon.jpg");
+            }
+            else if (moonphase === "Waning Gibbous") {
+                $("#moonPhase").attr("src", "https://c1.staticflickr.com/3/2779/5837032132_ed57457874_b.jpg");
+            }
+            else if (moonphase === "Waning Crescent") {
+                $("#moonPhase").attr("src", "http://astronomy.robpettengill.org/photos/slides/Moon2824WaningCrescent140819.jpg");
+            }
+
+
+        }
     </script>
 </body>
 
