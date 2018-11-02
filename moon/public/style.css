@@ -1,99 +1,111 @@
 li {
     list-style-type: none;
 }
+
 img {
     border-radius: 4px;
 }
+
 body {
     background-color: rgba(232,232,232);
+    /*background-image: url("https://images.wallpaperscraft.com/image/mountains_night_sky_stars_92704_1920x1080.jpg");*/
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    
 }
 
-#header{
-   
-      padding:1%;
-      margin-left: 15%;
-      margin-right: 15%;
-      margin-top: 2%;
-      text-align: center;
-      font-family: "Times New Roman";
-      font-size: 40px;
-      color: black;
-      font-weight: 20;
- 
-  background-image: linear-gradient(to right, rgba(184,236,255,0), rgba(149,149,149,.5), rgba(184,236,255,0));
+#header {
 
-}
-
-#headert1wo{
-   margin-left: 5%;
+    padding: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    text-align: center;
     font-family: "Times New Roman";
-      font-size: 25px;
-      margin-right:75%;
+    font-size: 40px;
+    color: black;
+    font-weight: 20;
+
+    background-image: linear-gradient(to right, rgba(184, 236, 255, 0), rgba(149, 149, 149, .5), rgba(184, 236, 255, 0));
+
 }
 
-#headertwo{
-       position:relative;
-  padding:15px;
-  border:5px solid #1C1C1C;
-  color:#333;
-  background:#fff;
-  /* css3 */
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
-  margin-left:10%;
-  margin-right:60%;
-  font-size:30px;
-  text-align: center;
+#headert1wo {
+    margin-left: 5%;
+    font-family: "Times New Roman";
+    font-size: 25px;
+    margin-right: 75%;
+}
+
+#headertwo {
+    position: relative;
+    padding: 15px;
+    border: 5px solid #1C1C1C;
+    color: #333;
+    background: #fff;
+    /* css3 */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    font-size: 30px;
+    text-align: center;
 }
 
 #headertwo:before {
-  content:"";
-  position:absolute;
-  bottom:-20px; /* value = - border-top-width - border-bottom-width */
-  left:10%; /* controls horizontal position */
-  border-width:20px 20px 0;
-  border-style:solid;
-  border-color:#1C1C1C transparent;
-  /* reduce the damage in FF3.0 */
-  display:block;
-  width:0;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    /* value = - border-top-width - border-bottom-width */
+    left: 35%;
+    /* controls horizontal position */
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #1C1C1C transparent;
+    /* reduce the damage in FF3.0 */
+    display: block;
+    width: 0;
 }
 
 
-#left{
-    float:left;
+#left {
+    float: left;
 }
 
-#right{
-    font-size:30px;
-     font-family: "Times New Roman";
+#right {
+    font-size: 30px;
+    font-family: "Times New Roman";
 }
 
-#scope{
+#scope {
     height: 60%;
     width: 60%;
-    margin-left:23%;
-    margin-top:0%;
 }
 
-#moonDef{
-    margin-left:50%;
+#moonDef {
+    font-size: 24px;
 }
 
-#moonPhase{
-    margin-left:10%;
+#moonPhase {
+
+    margin-left: 10%;
 }
 
-#looks{
-     font-size:30px;
-     font-family: "Times New Roman";
+#looks {
+    font-size: 30px;
+    font-family: "Times New Roman";
 }
 
-#moonButton{
-    background-color:#1C1C1C;
-    border-color:#1C1C1C;
+#moonButton {
+    background-color: #1C1C1C;
+    border-color: #1C1C1C;
+}
+
+#inputGroups {
+    margin-left: 10%;
+}
+
+.panel {
+    opacity: 0.95;
+    background-color: rgba(232, 232, 232);
 }

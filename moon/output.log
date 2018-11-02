@@ -1,0 +1,342 @@
+nohup: ignoring input
+Port: 4200
+[0mGET / [36m304 [0m9.688 ms - -[0m
+[0mGET /style.css [36m304 [0m1.332 ms - -[0m
+[0mGET / [32m200 [0m4.767 ms - 4680[0m
+[0mGET /style.css [32m200 [0m1.493 ms - 65[0m
+[0mGET /favicon.ico [33m404 [0m358.814 ms - 1102[0m
+[0mGET / [36m304 [0m7.960 ms - -[0m
+[0mGET /style.css [36m304 [0m1.436 ms - -[0m
+[0mGET / [32m200 [0m2.429 ms - 4680[0m
+[0mGET /style.css [32m200 [0m1.395 ms - 65[0m
+[0mGET /favicon.ico [33m404 [0m39.243 ms - 1102[0m
+[0mGET / [32m200 [0m1.002 ms - 4680[0m
+[0mGET /style.css [32m200 [0m0.896 ms - 65[0m
+[0mGET /favicon.ico [33m404 [0m49.687 ms - 1102[0m
+[0mGET / [32m200 [0m0.831 ms - 4680[0m
+[0mGET /style.css [32m200 [0m0.602 ms - 65[0m
+[0mGET /favicon.ico [33m404 [0m27.218 ms - 1102[0m
+REQ: [object Object]
+query  { q: '11/02/18', loc: 'Austin, TX' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=11/02/18&loc=Austin, TX
+[0mGET /getMoon?q=11/02/18&loc=Austin,%20TX [33m400 [0m252.370 ms - -[0m
+REQ: [object Object]
+query  { q: '11/02/18', loc: 'Austin, TX' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=11/02/18&loc=Austin, TX
+[0mGET /getMoon?q=11/02/18&loc=Austin,%20TX [33m400 [0m164.977 ms - -[0m
+[0mGET /style.css [32m200 [0m0.824 ms - 1654[0m
+[0mGET / [32m200 [0m0.909 ms - 4833[0m
+[0mGET /style.css [32m200 [0m0.652 ms - 1654[0m
+[0mGET /scope.jpeg [32m200 [0m0.606 ms - 205051[0m
+[0mGET / [32m200 [0m2.315 ms - 4862[0m
+[0mGET /style.css [32m200 [0m1.471 ms - 1654[0m
+[0mGET /scope.jpeg [32m200 [0m0.413 ms - 205051[0m
+[0mGET /favicon.ico [33m404 [0m21.607 ms - 1102[0m
+[0mGET / [32m200 [0m3.023 ms - 4862[0m
+[0mGET /style.css [36m304 [0m0.481 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.329 ms - -[0m
+[0mGET / [36m304 [0m0.861 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.530 ms - -[0m
+[0mGET /style.css [32m200 [0m1.454 ms - 1666[0m
+[0mGET /style.css [36m304 [0m0.689 ms - -[0m
+[0mGET / [36m304 [0m0.978 ms - -[0m
+[0mGET /style.css [32m200 [0m0.706 ms - 1662[0m
+[0mGET /scope.jpeg [36m304 [0m0.213 ms - -[0m
+[0mGET / [36m304 [0m0.536 ms - -[0m
+[0mGET /style.css [32m200 [0m0.630 ms - 1654[0m
+[0mGET /scope.jpeg [36m304 [0m0.215 ms - -[0m
+[0mGET / [36m304 [0m0.569 ms - -[0m
+[0mGET /style.css [32m200 [0m1.475 ms - 1654[0m
+[0mGET /scope.jpeg [36m304 [0m1.233 ms - -[0m
+[0mGET / [36m304 [0m0.541 ms - -[0m
+[0mGET /style.css [32m200 [0m0.666 ms - 1654[0m
+[0mGET /scope.jpeg [36m304 [0m0.239 ms - -[0m
+[0mGET / [36m304 [0m0.949 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.555 ms - -[0m
+[0mGET /style.css [32m200 [0m2.060 ms - 1654[0m
+[0mGET / [36m304 [0m0.551 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.490 ms - -[0m
+[0mGET /style.css [32m200 [0m1.387 ms - 1654[0m
+[0mGET / [32m200 [0m1.107 ms - 4875[0m
+[0mGET /style.css [36m304 [0m0.382 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.384 ms - -[0m
+[0mGET / [36m304 [0m0.541 ms - -[0m
+[0mGET /style.css [32m200 [0m0.885 ms - 1677[0m
+[0mGET /scope.jpeg [36m304 [0m0.867 ms - -[0m
+[0mGET / [36m304 [0m0.570 ms - -[0m
+[0mGET /style.css [32m200 [0m1.488 ms - 1680[0m
+[0mGET /scope.jpeg [36m304 [0m1.486 ms - -[0m
+[0mGET / [36m304 [0m0.505 ms - -[0m
+[0mGET /style.css [32m200 [0m4.778 ms - 1680[0m
+[0mGET /scope.jpeg [36m304 [0m0.847 ms - -[0m
+[0mGET / [36m304 [0m0.549 ms - -[0m
+[0mGET /style.css [32m200 [0m1.258 ms - 1681[0m
+[0mGET /scope.jpeg [36m304 [0m0.620 ms - -[0m
+[0mGET / [32m200 [0m1.718 ms - 4887[0m
+[0mGET /style.css [32m200 [0m0.629 ms - 1654[0m
+[0mGET /scope.jpeg [36m304 [0m0.210 ms - -[0m
+[0mGET / [36m304 [0m0.557 ms - -[0m
+[0mGET /style.css [36m304 [0m0.346 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.195 ms - -[0m
+[0mGET / [32m200 [0m0.777 ms - 4875[0m
+[0mGET /style.css [36m304 [0m0.344 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.210 ms - -[0m
+[0mGET /style.css [36m304 [0m0.329 ms - -[0m
+[0mGET / [32m200 [0m2.092 ms - 5042[0m
+[0mGET /style.css [36m304 [0m0.350 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.234 ms - -[0m
+[0mGET / [36m304 [0m0.512 ms - -[0m
+[0mGET /style.css [32m200 [0m0.867 ms - 1614[0m
+[0mGET /scope.jpeg [36m304 [0m1.722 ms - -[0m
+[0mGET / [36m304 [0m0.501 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.252 ms - -[0m
+[0mGET /style.css [32m200 [0m4.186 ms - 1626[0m
+[0mGET / [36m304 [0m0.540 ms - -[0m
+[0mGET /style.css [32m200 [0m0.587 ms - 1830[0m
+[0mGET /scope.jpeg [36m304 [0m0.197 ms - -[0m
+[0mGET / [36m304 [0m0.583 ms - -[0m
+[0mGET /style.css [32m200 [0m0.595 ms - 1614[0m
+[0mGET /scope.jpeg [36m304 [0m0.430 ms - -[0m
+[0mGET / [36m304 [0m0.526 ms - -[0m
+[0mGET /style.css [32m200 [0m1.186 ms - 1622[0m
+[0mGET /scope.jpeg [36m304 [0m1.143 ms - -[0m
+[0mGET / [36m304 [0m0.547 ms - -[0m
+[0mGET /style.css [32m200 [0m0.594 ms - 1595[0m
+[0mGET /scope.jpeg [36m304 [0m0.228 ms - -[0m
+[0mGET / [36m304 [0m0.533 ms - -[0m
+[0mGET /style.css [32m200 [0m2.006 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m1.741 ms - -[0m
+[0mGET / [36m304 [0m0.698 ms - -[0m
+[0mGET /style.css [32m200 [0m0.614 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m0.232 ms - -[0m
+[0mGET / [36m304 [0m0.522 ms - -[0m
+[0mGET /style.css [32m200 [0m0.592 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m0.411 ms - -[0m
+[0mGET / [36m304 [0m0.508 ms - -[0m
+[0mGET /style.css [32m200 [0m0.831 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m0.544 ms - -[0m
+[0mGET / [36m304 [0m0.522 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.477 ms - -[0m
+[0mGET /style.css [32m200 [0m2.103 ms - 1576[0m
+[0mGET /style.css [36m304 [0m0.314 ms - -[0m
+[0mGET / [32m200 [0m0.705 ms - 5042[0m
+[0mGET /style.css [36m304 [0m0.374 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.345 ms - -[0m
+[0mGET / [32m200 [0m0.796 ms - 5042[0m
+[0mGET /style.css [36m304 [0m0.582 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.198 ms - -[0m
+[0mGET / [32m200 [0m0.728 ms - 5042[0m
+[0mGET /style.css [36m304 [0m0.419 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.420 ms - -[0m
+[0mGET / [32m200 [0m0.764 ms - 5042[0m
+[0mGET /style.css [36m304 [0m1.306 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.194 ms - -[0m
+[0mGET / [32m200 [0m1.476 ms - 5042[0m
+[0mGET /style.css [36m304 [0m0.347 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.422 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m640.546 ms - -[0m
+[0mGET / [36m304 [0m0.552 ms - -[0m
+[0mGET /style.css [32m200 [0m0.626 ms - 1588[0m
+[0mGET /scope.jpeg [36m304 [0m1.181 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m311.007 ms - -[0m
+[0mGET / [36m304 [0m0.580 ms - -[0m
+[0mGET /style.css [32m200 [0m0.625 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m0.660 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m386.779 ms - -[0m
+[0mGET / [32m200 [0m1.340 ms - 5042[0m
+[0mGET /style.css [32m200 [0m1.294 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m0.310 ms - -[0m
+[0mGET / [32m200 [0m0.776 ms - 5065[0m
+[0mGET /style.css [36m304 [0m2.384 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.186 ms - -[0m
+[0mGET / [32m200 [0m0.793 ms - 5043[0m
+[0mGET /style.css [36m304 [0m0.337 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.453 ms - -[0m
+[0mGET / [32m200 [0m0.724 ms - 5065[0m
+[0mGET /style.css [36m304 [0m0.336 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.189 ms - -[0m
+[0mGET / [36m304 [0m0.493 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.509 ms - -[0m
+[0mGET /style.css [32m200 [0m2.585 ms - 1658[0m
+[0mGET / [32m200 [0m0.767 ms - 5142[0m
+[0mGET /style.css [36m304 [0m1.691 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.182 ms - -[0m
+[0mGET / [32m200 [0m0.704 ms - 5120[0m
+[0mGET /style.css [36m304 [0m0.346 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.190 ms - -[0m
+[0mGET / [32m200 [0m0.781 ms - 5098[0m
+[0mGET /style.css [36m304 [0m0.394 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m1.400 ms - -[0m
+[0mGET / [32m200 [0m0.861 ms - 5098[0m
+[0mGET /style.css [36m304 [0m0.378 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.180 ms - -[0m
+[0mGET / [36m304 [0m0.527 ms - -[0m
+[0mGET /style.css [32m200 [0m0.604 ms - 1576[0m
+[0mGET /scope.jpeg [36m304 [0m0.199 ms - -[0m
+[0mGET / [36m304 [0m0.533 ms - -[0m
+[0mGET /style.css [32m200 [0m0.654 ms - 1613[0m
+[0mGET /scope.jpeg [36m304 [0m0.200 ms - -[0m
+[0mGET / [36m304 [0m0.512 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.973 ms - -[0m
+[0mGET /style.css [32m200 [0m2.432 ms - 1613[0m
+[0mGET / [36m304 [0m0.499 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.463 ms - -[0m
+[0mGET /style.css [32m200 [0m1.303 ms - 1616[0m
+[0mGET / [36m304 [0m0.507 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.486 ms - -[0m
+[0mGET /style.css [32m200 [0m2.660 ms - 1615[0m
+[0mGET / [36m304 [0m0.551 ms - -[0m
+[0mGET /style.css [32m200 [0m0.647 ms - 1617[0m
+[0mGET /scope.jpeg [36m304 [0m0.198 ms - -[0m
+[0mGET / [36m304 [0m0.495 ms - -[0m
+[0mGET /style.css [32m200 [0m0.627 ms - 1617[0m
+[0mGET /scope.jpeg [36m304 [0m0.185 ms - -[0m
+[0mGET / [36m304 [0m0.485 ms - -[0m
+[0mGET /style.css [32m200 [0m0.660 ms - 1619[0m
+[0mGET /scope.jpeg [36m304 [0m0.220 ms - -[0m
+[0mGET / [36m304 [0m0.527 ms - -[0m
+[0mGET /style.css [32m200 [0m0.643 ms - 1620[0m
+[0mGET /scope.jpeg [36m304 [0m0.201 ms - -[0m
+[0mGET / [32m200 [0m0.844 ms - 5098[0m
+[0mGET /style.css [36m304 [0m0.366 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.178 ms - -[0m
+[0mGET / [32m200 [0m1.190 ms - 5098[0m
+[0mGET /style.css [32m200 [0m0.571 ms - 1620[0m
+[0mGET /scope.jpeg [32m200 [0m0.433 ms - 205051[0m
+[0mGET /favicon.ico [33m404 [0m9.452 ms - 1102[0m
+[0mGET / [36m304 [0m0.559 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.499 ms - -[0m
+[0mGET /style.css [32m200 [0m1.375 ms - 1618[0m
+[0mGET / [32m200 [0m1.248 ms - 5095[0m
+[0mGET /style.css [32m200 [0m0.581 ms - 1617[0m
+[0mGET /scope.jpeg [36m304 [0m0.236 ms - -[0m
+[0mGET / [36m304 [0m2.079 ms - -[0m
+[0mGET /style.css [32m200 [0m0.876 ms - 1617[0m
+[0mGET /scope.jpeg [36m304 [0m0.561 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m374.909 ms - -[0m
+[0mGET / [36m304 [0m0.542 ms - -[0m
+[0mGET /style.css [32m200 [0m0.558 ms - 1643[0m
+[0mGET /scope.jpeg [36m304 [0m0.303 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'NewYork, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=NewYork, NY
+[0mGET /getMoon?q=10/31/2018&loc=NewYork,%20NY [33m400 [0m193.035 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m299.103 ms - -[0m
+[0mGET / [36m304 [0m0.546 ms - -[0m
+[0mGET /style.css [32m200 [0m0.602 ms - 1643[0m
+[0mGET /scope.jpeg [36m304 [0m0.327 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m910.719 ms - -[0m
+[0mGET / [36m304 [0m0.577 ms - -[0m
+[0mGET /style.css [32m200 [0m0.604 ms - 1643[0m
+[0mGET /scope.jpeg [36m304 [0m0.287 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m263.515 ms - -[0m
+[0mGET / [36m304 [0m0.471 ms - -[0m
+[0mGET /style.css [32m200 [0m0.675 ms - 1640[0m
+[0mGET /scope.jpeg [36m304 [0m0.297 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m329.113 ms - -[0m
+[0mGET / [36m304 [0m0.516 ms - -[0m
+[0mGET /style.css [32m200 [0m0.633 ms - 1641[0m
+[0mGET /scope.jpeg [36m304 [0m0.314 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m322.212 ms - -[0m
+[0mGET / [36m304 [0m0.521 ms - -[0m
+[0mGET /style.css [32m200 [0m0.741 ms - 1644[0m
+[0mGET /scope.jpeg [36m304 [0m0.345 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m232.503 ms - -[0m
+[0mGET / [36m304 [0m2.886 ms - -[0m
+[0mGET /style.css [32m200 [0m0.623 ms - 1645[0m
+[0mGET /scope.jpeg [36m304 [0m0.280 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m367.501 ms - -[0m
+[0mGET / [36m304 [0m0.523 ms - -[0m
+[0mGET /style.css [32m200 [0m0.597 ms - 1647[0m
+[0mGET /scope.jpeg [36m304 [0m0.302 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m244.355 ms - -[0m
+[0mGET / [36m304 [0m0.594 ms - -[0m
+[0mGET /style.css [32m200 [0m0.615 ms - 1663[0m
+[0mGET /scope.jpeg [36m304 [0m0.340 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m324.586 ms - -[0m
+[0mGET / [32m200 [0m0.791 ms - 5172[0m
+[0mGET /style.css [32m200 [0m0.575 ms - 1622[0m
+[0mGET /scope.jpeg [36m304 [0m0.296 ms - -[0m
+[0mGET / [36m304 [0m0.518 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.445 ms - -[0m
+[0mGET /style.css [32m200 [0m2.308 ms - 1675[0m
+[0mGET / [32m200 [0m0.761 ms - 5301[0m
+[0mGET /style.css [36m304 [0m1.213 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.165 ms - -[0m
+[0mGET / [36m304 [0m0.525 ms - -[0m
+[0mGET /style.css [32m200 [0m0.586 ms - 1767[0m
+[0mGET /scope.jpeg [36m304 [0m0.183 ms - -[0m
+[0mGET / [36m304 [0m0.507 ms - -[0m
+[0mGET /style.css [32m200 [0m0.628 ms - 1864[0m
+[0mGET /scope.jpeg [36m304 [0m0.423 ms - -[0m
+[0mGET /style.css [36m304 [0m0.326 ms - -[0m
+[0mGET / [36m304 [0m0.564 ms - -[0m
+[0mGET /style.css [32m200 [0m1.286 ms - 1888[0m
+[0mGET /scope.jpeg [36m304 [0m0.176 ms - -[0m
+[0mGET / [36m304 [0m0.512 ms - -[0m
+[0mGET /style.css [32m200 [0m0.607 ms - 1906[0m
+[0mGET /scope.jpeg [36m304 [0m0.192 ms - -[0m
+[0mGET / [36m304 [0m0.503 ms - -[0m
+[0mGET /style.css [32m200 [0m0.618 ms - 1906[0m
+[0mGET /scope.jpeg [36m304 [0m0.388 ms - -[0m
+[0mGET / [36m304 [0m1.250 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.241 ms - -[0m
+[0mGET /style.css [32m200 [0m1.103 ms - 1907[0m
+[0mGET / [32m200 [0m0.785 ms - 5301[0m
+[0mGET /style.css [36m304 [0m0.333 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.183 ms - -[0m
+[0mGET / [36m304 [0m0.508 ms - -[0m
+[0mGET /style.css [32m200 [0m0.583 ms - 1907[0m
+[0mGET /scope.jpeg [36m304 [0m0.200 ms - -[0m
+[0mGET / [32m200 [0m0.748 ms - 6065[0m
+[0mGET /style.css [36m304 [0m0.370 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.231 ms - -[0m
+[0mGET / [32m200 [0m0.740 ms - 6065[0m
+[0mGET /style.css [36m304 [0m0.410 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.220 ms - -[0m
+[0mGET / [32m200 [0m0.738 ms - 6065[0m
+[0mGET /style.css [36m304 [0m0.335 ms - -[0m
+[0mGET /scope.jpeg [36m304 [0m0.188 ms - -[0m
+REQ: [object Object]
+query  { q: '10/31/2018', loc: 'New York, NY' }
+URL: http://api.usno.navy.mil/rstt/oneday?date=10/31/2018&loc=New York, NY
+[0mGET /getMoon?q=10/31/2018&loc=New%20York,%20NY [32m200 [0m338.751 ms - -[0m
