@@ -9,15 +9,18 @@
 </head>
 
 <body>
-    <h2>Find the Phase of the Moon!</h2>
-    <h5>You can search from the past all the way to the future! (Year Range: 1700-2100)</h5>
+    <h2 id="header">Welcome to the Phenomenal Lunar Phase Finder!</h2>
+    <h5 id= "headertwo">"Gadzooks my boy! You can search from the past all the way to the future!" (Year Range: 1700-2100)</h5>
 
     <form>
-        <div class="form-inline">
+        <div id="left">
+            <img id="scope" src="scope.jpeg"></img>
+        </div>
+        <div class="form-inline" id="right">
             Enter a date: <input type="text" value="" id="dateForm" class="form-control mr-sm-2 ml-sm-2" style="width:10%" placeholder="Ex:11/02/2018" /> Enter a location: <input type="text" id="locationForm" class="form-control mr-sm-2 ml-sm-2" style="width:15%"
                 placeholder="Ex: New York, NY" />
             <button class="btn btn-primary" id="moonButton">Submit</button>
-            <br> <b>Result:</b>
+            <br> 
             <span id="moonDef"></span>
         </div>
     </form>
